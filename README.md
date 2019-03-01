@@ -2,9 +2,21 @@
 # 监督学习
 ## 项目: 为CharityML寻找捐献者
 
+### 扩展阅读：
+1.数据为什么要归一化？
+https://www.zhihu.com/question/37129350
+2.机器学习模型的评价指标：
+https://zhuanlan.zhihu.com/p/43405406
+3.如何处理数据中的类别不平衡？
+https://zhuanlan.zhihu.com/p/36381828
+4.机器学习中的数据预处理：
+http://ufldl.stanford.edu/wiki/index.php/Data_Preprocessing
+5.为什么要进行特征选择：
+https://zhuanlan.zhihu.com/p/24635014
+
 ### 项目简介
 
-使用监督学习技术和分析能力对美国人口普查数据进行分析，以帮助CharityML（一个虚拟的慈善机构）识别最有可能向他们捐款的人，首先探索数据以了解人口普查数据是如何记录的。接下来，使用一系列的转换和预处理技术以将数据整理成能用的形式。利用adaboost算法拟合数据并利用网格搜索对adaboost模型调优。利用feature_importances_函数选择几个重要的特征，并将特征选择后的模型与在所有特征上拟合的模型做对比。
+使用监督学习技术对美国人口普查数据进行分析，以帮助CharityML（一个虚拟的慈善机构）识别年收入5万以上的人群。首先使用一系列的转换和预处理技术以将数据整理成能用的形式。利用adaboost算法拟合数据并利用网格搜索对adaboost模型调优。利用feature_importances_函数选择几个重要的特征，并将特征选择后的模型与在所有特征上拟合的模型做对比。
 
 ### 安装
 
